@@ -1,0 +1,11 @@
+<% if flash[:error] %>
+    <% if flash[:error].is_a?(String) %>
+        <div class='error'><%= flash[:error] %></div>
+    <% else %>
+        <div class='error'>
+            <% flash[:error].each do |k, v| %>
+                <p><%= k.capitalize %> <%= v %></p>
+            <% end %>
+        </div>
+    <% end %>
+<% end %>
