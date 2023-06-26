@@ -1,5 +1,5 @@
 # Music App
-Ruby (2.5.1) Rails (5.2.3) project using Postgres database. Demo at https://murmuring-castle-75704.herokuapp.com/
+Ruby (2.5.1) Rails (5.2.3) project using Postgres database.
 
 ## Description
 A web app for cataloguing bands, their albums and tracks, and associated data. Allows for user commenting. Users can search all models at once using the provided search on any page.
